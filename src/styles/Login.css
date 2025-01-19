@@ -1,0 +1,130 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a73e8, #42a5f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ffffff;
+  }
+  
+/* Avatar */
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    overflow: hidden; /* Esto asegura que la imagen no sobresalga del contenedor */
+}
+
+/* Ajustar la imagen del avatar */
+.avatar-img {
+    width: 100%; /* Ajusta al tamaño completo del contenedor */
+    height: 100%; /* Ajusta al tamaño completo del contenedor */
+    object-fit: cover; /* Hace que la imagen mantenga sus proporciones dentro del contenedor */
+}
+
+  
+  /* Title */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1a73e8;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(26, 115, 232, 0.1);
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    background: none;
+    color: #1a73e8;
+  }
+  
+  .input-group input::placeholder {
+    color: #1a73e8;
+    opacity: 0.8;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px;
+  }
+  
+  /* Login Actions */
+  .login-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #1a73e8;
+  }
+  
+  .login-actions a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .login-actions a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button */
+  .login-button {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #1768c4;
+    color: white;
+  }
+  
